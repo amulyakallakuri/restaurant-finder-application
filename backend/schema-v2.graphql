@@ -1,0 +1,26 @@
+type Query {
+  business(bid: ID!):   Business
+}
+
+type Mutation {
+  businessCreate(
+    bid:                ID!
+    bname:              String
+    brating:            Float
+    bcategories:        Categories
+    burl:               String
+  )
+}
+
+type Business {
+  bname:                String
+  bid:                  ID!
+  categories:           Categories
+  url:                  String
+}
+
+type Categories {
+  title:                String
+  alias:                String
+}
+

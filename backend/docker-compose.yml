@@ -1,0 +1,25 @@
+services:
+  node:
+    image: hw4q1
+    ports:
+      - "3000:3000"
+    volumes:
+      - "/Users/aditibodhankar/Documents/Fall 2022/EE 547/Project:/hw"
+    stdin_open: true
+    tty: true
+
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    restart: unless-stopped
+    ports:
+      - 27017:27017
+  
+  mongo-express:
+    image: mongo-express:latest
+    container_name: mongo-express
+    restart: unless-stopped
+    ports:
+      - "8081:8081"
+    environment:
+      ME_CONFIG_MONGODB_SERVER: mongodb
