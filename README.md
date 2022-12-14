@@ -7,6 +7,9 @@ The application consists of four main components: Login, Home, Cuisine and Resta
 
 Run `npm install` inside frontend and backend folder to install all the required packages for each.
 
+<img width="1440" alt="login" src="https://user-images.githubusercontent.com/26215631/207502346-aba07545-98d5-491e-99e8-1579147ffb63.png">
+
+
 <img width="1440" alt="1" src="https://user-images.githubusercontent.com/26215631/207501942-482bee55-7f03-4009-a19a-da0fcfaa4275.png">
 
 <img width="1440" alt="3" src="https://user-images.githubusercontent.com/26215631/207501967-c97ce2c3-9947-4a74-a9f1-ab782b72c9c3.png">
@@ -17,6 +20,5 @@ Run `npm install` inside frontend and backend folder to install all the required
 
 <img width="1440" alt="15" src="https://user-images.githubusercontent.com/26215631/207502024-4f6566e6-b6d6-452e-83a6-dc99325ce71c.png">
 
-<img width="1440" alt="17" src="https://user-images.githubusercontent.com/26215631/207502097-fac677e5-8555-4f4e-888e-868113ae0da0.png">
 
 Bon Appetit!
