@@ -1,0 +1,129 @@
+<div class="image">
+  <div
+    class="d-flex flex-column min-vh-100 justify-content-center align-items-center"
+  >
+    <div
+      class="card text-bg-primary text-center shadow-lg p-3 mb-5 dropdown show col-md-6 offset-md-5"
+      style="width: 600px"
+    >
+      <a
+        class="btn btn-outline dropdown-toggle w-100"
+        href="#"
+        role="button"
+        id="dropdownMenuLink"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        Cuisines
+      </a>
+
+      <div
+        class="dropdown-menu w-100 dropdown-menu-center text-center bg-gradient"
+        style="background-color: #e7dac7"
+        aria-labelledby="dropdownMenuLink"
+      >
+        <a class="dropdown-item" href="swipe">Indian</a>
+        <a class="dropdown-item" href="swipe">Italian</a>
+        <a class="dropdown-item" href="swipe">Mexican</a>
+        <a class="dropdown-item" href="swipe">Thai</a>
+        <a class="dropdown-item" href="swipe">French</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  body,
+  html {
+    height: 100%;
+  }
+
+  :host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", "Quicksand", "Montserrat";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 8px 0;
+  }
+
+  .image {
+    background-image: url("../assets/right-food.jpeg");
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .btn {
+    background-color: #ff2c2c;
+    color: #e7dac7;
+  }
+
+  .card:hover .btn {
+    background-color: #e7dac7;
+    color: #ff2c2c;
+  }
+
+  .card {
+    background-color: #ff2c2c;
+    color: #e7dac7;
+  }
+
+  .dropdown .dropdown-menu {
+    display: block;
+    opacity: 0;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+  }
+
+  .dropdown-menu {
+    color: #e7dac7;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 0.85;
+    color: #ff2c2c;
+  }
+
+  .dropdown-item {
+    display: block;
+    opacity: 0.9;
+    background-color: #e7dac7;
+    color: #ff2c2c;
+  }
+
+  .dropdown-item:hover {
+    display: block;
+    opacity: 1;
+    background-color: #ff2c2c;
+    color: #e7dac7;
+  }
+
+  .card {
+    opacity: 0.85;
+  }
+
+  .card:hover {
+    opacity: 1;
+    background-color: #e7dac7;
+    transform: scale(1.04);
+    box-shadow: 0 10px 20px rgb(255, 255, 255),
+      0 4px 8px rgba(255, 255, 255, 0.404);
+    transition: all 0.4s ease;
+  }
+</style>

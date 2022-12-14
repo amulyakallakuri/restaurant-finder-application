@@ -1,0 +1,101 @@
+<div class="image">
+  <div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
+    <div class="text-center col-md-6 offset-md-5 display-4" style="color: #e7dac7;">
+      Restaurant Finder
+    </div>
+    <p></p>
+    <div class="col-md-6 offset-md-5" style="width: 600px;">
+      <div class="card text-bg-primary text-center shadow-lg p-3 mb-5">
+        <ul>
+        <p></p>
+          <li>
+            Click the button below to go to the cuisines page.
+          </li>
+          <li>
+            Select the restaurant you would like to eat at!
+          </li>
+          <li>
+            See details of the restaurant you chose. Bon Appetit!
+          </li>
+        </ul>
+        <div class="btn col-md-3 mx-auto" routerLink='/cuisine'>Cuisines</div>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <div class="dropdown"></div>
+</div>
+
+<style>
+  body,
+  html {
+    height: 100%;
+  }
+
+  :host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol","Quicksand", "Montserrat";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 8px 0;
+  }
+
+  .image {
+    background-image: url("../assets/right-food.jpeg");
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .dropdown .dropdown-menu{
+    display: block;
+    opacity:0;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+ }
+
+ .dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+ }
+
+.card {
+  opacity:.85;
+  background-color: #ff2c2c;
+  color: #e7dac7;
+ }
+
+.card:hover{
+  opacity: 1;
+  background-color: #e7dac7;
+  color: #ff2c2c;
+  transform: scale(1.04);
+  box-shadow: 0 10px 20px rgb(255, 255, 255), 0 4px 8px rgba(255, 255, 255, 0.404);
+  transition: all 0.4s ease;
+}
+
+.btn {
+  background-color: #e7dac7;
+  color: #ff2c2c;
+ }
+
+.btn:hover {
+  background-color: #ff2c2c;
+  color: #e7dac7;
+}
+
+</style>
