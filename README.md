@@ -1,1 +1,1 @@
-# restaurant-finder-application
+# Restaurant Finder Application
